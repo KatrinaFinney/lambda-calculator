@@ -1,22 +1,98 @@
+/*
+
+​
+​
+
+​
+
+​
+.left {
+  width: 65%;
+  margin: 6% 0 0 15%;
+}
+​
+
+​
+
+
+​
+
+
+​
+
+​*/ 
+button:nth-child(10) {
+  width: 150px;
+  border-radius: 40%;
+} 
+
+
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
+  
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin-top: 25px;
+  height: 100px;
+  width: 450px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5.0rem;
+}
+
+button{
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  margin: 10px;
+ 
+  color: white;
+  background-color: rgb(70, 69, 161);
+  font-size: 32px;
+  box-shadow: 0 5px black;
+  margin: 10px;
+}
+
+/*.operators {
+  width: 20%;
+  margin-right: 0;
+}*/
+
+.operation-container {
+  display: flex;
+}
+
+/*.right {
+  width: 35%;
+  margin: 6% 8% 0 0;
+}
+
+
+.logo-container {
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.display-container {
+  width: 90%;
+  margin-left: 5%;
+}
+/*.specials {
+  width: 90%;
+  margin-left: 10%;
+}*/
+​
+.numbers {
+  width: 90%;
+  margin-left: 10%;
+}
